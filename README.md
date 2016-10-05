@@ -5,7 +5,7 @@ Any questions: s.w.m.huddy@dundee.ac.uk
 "But I don't know python!?": So long as you know a language like Java or C/CPP then you're pretty good to go. 
 Just a few remarks about the python: 
 
-### 1. Python is an interpreter language, this means python code is run by 'python3 source.py' without compiling. Also, be to date, stick with python3. There is python 2.7, majority of code will run either way, but best to keep up-to-date.
+### 1. Python is an interpreter language, this means python code is run by 'python3 source.py' without compiling. Also, be up to date, stick with python3. There is python 2.7, majority of code will run either way, but best to keep up-to-date.
  
 ### 2. Python loves indentations! You will see there little uses of {} in the code to define methods/functions. Below is a java/python method comparison:
 Java:
