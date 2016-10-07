@@ -1,7 +1,7 @@
 
 # coding: utf-8
 
-# Dundee University Computing Society 2016 - Created by Stuart Huddy
+# Dundee University Computing Society 2016 - Created by Stuart Huddy, s.w.m.huddy@dundee.ac.uk
 # Note: Some examples have been from Universität of Osnabrück
 
 # ## Setup your environment
@@ -51,7 +51,7 @@
 
 # # Programming Challenge 01:Dijkstra's algorithm
 # 
-# Find the shortest paths from a given source node to all other nodes by developing the paths in order of increasing paths lengths. By the kth stage of the agorithm, there is a known set M consisting of k nodes which are the k nodes closest to (i.e. least cost away from) the source node. The (k+1)st stage of the algorithm will add to M the node which was not previously in M, and has the shortest (least cost) path from the source node. It will also establish the path to that node from the source.
+# https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm Find the shortest paths from a given source node to all other nodes by developing the paths in order of increasing paths lengths. By the kth stage of the agorithm, there is a known set M consisting of k nodes which are the k nodes closest to (i.e. least cost away from) the source node. The (k+1)st stage of the algorithm will add to M the node which was not previously in M, and has the shortest (least cost) path from the source node. It will also establish the path to that node from the source.
 
 # Peusdo Code for Algorithm:
 # 1. Initalise as follows:
