@@ -39,7 +39,7 @@ Java:<br>
 > `}`
 
 Python:
-> `     for i in 10:`
+> `     for i in range(10):`
 >          `#zomggg so easy!`
 
 Anything else you are better off making StackOverflow your friend.
