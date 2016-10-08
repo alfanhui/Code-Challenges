@@ -61,16 +61,20 @@
 # 
 # 3. Update the known least-cost paths for all the nodes not in set M by comparing the current known cost of the path from the source node to a node n with (the cost of the path from the source to the node w (just added to set M) + The cost fo the path from node w to node n). Do this for all nodes n outside the set M.
 
-# In[3]:
+# In[1]:
 
+import math
 #Dataset of lengths. If paths between points are 0, it either means
 #it is itself or a node it does not have direct access to.
-D=     ([0,2,5,1,0,0],#n0
-        [3,0,3,2,0,0],#n1
-        [8,6,0,3,1,5],#n2
-        [7,2,3,0,1,0],#n3
-        [0,0,1,1,0,2],#n4
-        [0,0,8,0,4,0])#n5
+inf = math.inf
+
+D=     ([0  ,2  ,5  ,1  ,inf,inf],#n0
+        [3  ,0  ,3  ,2  ,inf,inf],#n1
+        [8  ,6  ,0  ,3  ,1  ,5  ],#n2
+        [7  ,2  ,3  ,0  ,1  ,inf],#n3
+        [inf,inf,1  ,1  ,0  ,2  ],#n4
+        [inf,inf,8  ,inf,4  ,0  ])#n5
+
 
 #i is the node we wish to work out it's sink tree.
 #Remember path to itself will always be zero.
